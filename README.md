@@ -1,7 +1,7 @@
 i3lock-fancy
 ============
 
-This is a fork of the  i3lock bash script that takes a screenshot of the desktop, blurs the background and adds a lock icon and text. My fork includes a Star Wars quote generator that displays a random Sith quote when the screen is dark, and a jedi one when it is light.
+This is an i3lock bash script that takes a screenshot of the desktop, blurs the background and adds a lock icon and text
 
 website: [github pages website](http://meskarune.github.io/i3lock-fancy/)
 
