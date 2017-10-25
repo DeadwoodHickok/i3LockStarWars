@@ -7,8 +7,8 @@ IMAGE=$(mktemp).png
 # its used for the lock icon
 pushd `dirname $0` > /dev/null
 SCRIPTPATH=`pwd`
-TEXT="`$SCRIPTPATH/quotes.py`"
-TEXTDARK="`$SCRIPTPATH/quotes.py`"
+TEXT="`$SCRIPTPATH/quotes.py j`"
+TEXTDARK="`$SCRIPTPATH/quotes.py s`"
 popd > /dev/null
  
 # l10n support

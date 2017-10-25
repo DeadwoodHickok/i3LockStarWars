@@ -11,7 +11,10 @@ quotesDark = ["No. I am your Father.",
 "I find your lack of faith disturbing.",
 "You underestimate my power...",]
 r = SystemRandom()
-if r.randrange(2) == 0:
+argument = sys.argv[1]
+if argument == "j":
 	print(quotesLight[r.randrange(len(quotesLight))])	
-else:
+elif argument == "s":
 	print(quotesDark[r.randrange(len(quotesDark))])
+else:
+	print("Error. You broke some shit.")
